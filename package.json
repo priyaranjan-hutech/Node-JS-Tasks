@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-techpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debanil-hutech/NodeJS-TechPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debanil-hutech/NodeJS-TechPractice/issues"
+  },
+  "homepage": "https://github.com/debanil-hutech/NodeJS-TechPractice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.0"
+  }
+}
